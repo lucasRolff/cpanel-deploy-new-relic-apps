@@ -4,6 +4,7 @@ import sys
 rawData = sys.stdin.readlines()
 
 hookdata = eval(rawData[0].replace(':null', ':None'))
+
 data = hookdata['data']
 username = data['user']
 domain = data['domain']
