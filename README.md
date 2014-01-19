@@ -7,7 +7,7 @@ To add the hook into cPanel, you should use the code below:
 
 ``` bash
 /usr/local/cpanel/bin/manage_hooks \
-add script /opt/makehtaccess/makefile.py \
+add script /opt/makehtaccess/makehtaccess.py \
 --stage post \
 --category Whostmgr \
 --event Accounts::Create \
