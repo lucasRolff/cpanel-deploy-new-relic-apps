@@ -11,7 +11,7 @@ In general what you do, is to add a script, to the post stage of the Whostmgr::A
 
 To take a small overview, of what the code does:
 
-```
+``` python
 #!/usr/bin/python
 import sys, pwd, grp, os
 import simplejson as json
