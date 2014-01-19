@@ -10,7 +10,8 @@ To add the hook into cPanel, you should use the code below:
 add script /opt/makehtaccess/makefile.py \
 --stage post \
 --category Whostmgr \
---event Accounts::Create
+--event Accounts::Create \
+--manual
 ```
 	
 In general what you do, is to add a script, to the post stage of the Whostmgr::Accounts::Create hook of cpanel, this will be run after the creation of a new account.
